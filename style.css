@@ -52,7 +52,10 @@ a:hover{
 	padding: 5px;
 	justify-content: center;
 }
-.cover h1 h3{
+.cover h1{
+	text-align: center;
+}
+.cover h3{
 	text-align: center;
 }
 .images-list{
