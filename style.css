@@ -29,6 +29,7 @@ a:hover{
 }
 .logo{
 	margin-right: auto;
+	padding-top: 3px;
 }
 .logo img{
 	width: 60px;
