@@ -9,7 +9,7 @@ body{
 	list-style: none;
 	display: inline;
 	padding-right: 15px;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 }
 .main-nav{
 	display: flex;
@@ -50,6 +50,7 @@ a:hover{
 	border-radius: 25px;
 	padding: 5px;
 	justify-content: center;
+	font-size: 1.5rem;
 }
 .cover h3{
 	text-align: center;
