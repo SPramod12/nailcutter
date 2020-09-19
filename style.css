@@ -1,0 +1,118 @@
+body{
+	margin: 0;
+}
+.nav-bar{
+	position: fixed;
+	width: 100%;
+}
+.main-nav li{
+	list-style: none;
+	display: inline;
+	padding-right: 15px;
+	font-size: 1.2rem;
+}
+.main-nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #bbf2bb;
+	margin: 0;
+	border-radius: 10px;
+}
+a{
+	text-decoration: none;
+	color: #1436fa;
+}
+a:hover{
+	text-decoration: none;
+	color: #fa1414;
+}
+.logo{
+	margin-right: auto;
+}
+.logo img{
+	width: 60px;
+	border-radius: 15px;
+}
+.options{
+	margin-left: auto;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 65vh;
+	background: url(https://elements-cover-images-0.imgix.net/a5a79619-0f12-4540-a97d-2c981f52f972?auto=compress%2Cformat&fit=max&w=1370&s=9b38af5ee86ac3f04e73b502c08e02c4) no-repeat center center fixed; 
+  	background-size: cover;
+}
+.cover{
+	background-color: rgba(191, 218, 224, 0.6);
+	border-radius: 25px;
+	padding: 5px;
+	justify-content: center;
+}
+.cover h3{
+	text-align: center;
+}
+.images-list{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	justify-content: center;
+	align-items: center;
+	grid-gap: 20px;
+	background-color: #b0f5e4;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.zone{
+	cursor:pointer;
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+    margin-top: 5px;
+}
+.box{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(52, 59, 57, 0.5);
+	border-radius: 25px;
+	font-size: 20px;
+	transition: all 0.2s;
+	height: 100%;
+	margin-left:5px;
+	margin-right:5px;
+}
+.box:hover{
+	transform: scale(1.02);
+}
+.box button{
+	width: 120px;
+	justify-self:center;
+	border-radius: 20px;
+	margin-bottom: 5px;
+	cursor: pointer;
+	transition: all 0.1s;
+}
+.box button:hover{
+	transform: rotate(-2deg);
+}
+.box p{
+	justify-self:center;
+}
+.box img{
+	justify-self:center;
+	width: 250px;
+	border-radius: 20px;
+	margin-top: 5px;
+}
+footer{
+	background-color: #f2ff8f;
+	font-size: 1.5rem;
+	border-radius: 20px;
+	height: 100%;
+	text-align: center;
+	padding: 5px;
+}
